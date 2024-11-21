@@ -1,0 +1,149 @@
+.post{
+    border: 6px solid black;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    backdrop-filter: blur(10px);
+    font-family: Poppins;
+
+}
+
+h2{
+    margin: 100px 0;
+} */
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #e0f7fa, #80deea);
+    color: #333;
+    text-decoration: none;
+  }
+  
+.home {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Header styling */
+  h2 {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 2rem;
+    color: #004d40;
+  }
+  
+  /* Post card styling */
+.post {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+.post:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Post title */
+.post h3 {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+    color: #105c3c;
+  }
+  
+  /* Post content */
+.post p {
+    font-size: 1rem;
+    color: #000000;
+    margin: 0.5rem 0;
+    text-decoration: none;
+  }
+  
+  /* Post image */ 
+.post img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    .home {
+      padding: 1rem;
+      grid-template-columns: 1fr;
+    }
+  
+    .post {
+      padding: 1rem;
+    }
+  }
+
+  
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+ body {
+    background: linear-gradient(to bottom, #a1eafb, #ffffff); /* Adjust this gradient to match your current design */
+  }
+  
+#root {
+    flex: 1; /* Ensures the content stretches to fill available space */
+  }
+  
+.container {
+    min-height: 100vh; /* Makes the container cover at least the full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+.search-input{
+    justify-content: center;
+    margin-top: 20px;
+    font-family: Poppins;
+    border: 5px solid #000000;
+    background-color: opaque;
+    margin: 45px;
+    border-radius: 15px;
+  }
+
+button {
+    justify-content: center;
+    margin-top: 20px;
+    font-family: Poppins;
+    border: 5px solid #000000;
+    font-size: 1rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    margin: 45px;
+    font-weight: 500;
+    transition: .3s ease;
+    padding: 5px;
+
+  }
+
+  button:hover{
+    transform: scale(1.2);
+    background-color: #ffffff;
+    transition: .3s ease;
+
+}
+
+.postcontent{
+    font-size: .5rem;
+}

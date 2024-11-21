@@ -1,0 +1,137 @@
+.edit-post {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 25px;
+    background-color: (0, 0, 0, 0.2);
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    font-family: 'Arial', sans-serif;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 10px solid #4e91f5;
+    border-radius: 25px;
+    box-shadow: 4px 4px 8px rgba(78, 145, 245, 0.1);
+    font-family: Poppins;
+    backdrop-filter: blur(10px);
+}
+
+.edit-post:hover {
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.edit-post h1 {
+    font-size: 2.2rem;
+    margin-bottom: 25px;
+    color: #333;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-family: Poppins;
+}
+
+.edit-post form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.edit-post label {
+    font-size: 1rem;
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.edit-post input, .edit-post textarea {
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f8f8f8;
+    transition: background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+.edit-post input:focus, .edit-post textarea:focus {
+    background-color: #fff;
+    border-color: #4e91f5;
+    box-shadow: 0 0 5px rgba(78, 145, 245, 0.5);
+    outline: none;
+}
+
+.edit-post textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.edit-post button {
+    padding: 12px 20px;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    border-color: #4e91f5;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.edit-post submit {
+    background-color: #000000;
+}
+
+.edit-post button:hover {
+    background-color: #3577d6;
+    box-shadow: 0 4px 8px rgba(53, 119, 214, 0.3);
+    transition: .3s ease all;
+    transform: scale(1.1);
+    color: white;
+}
+
+.edit-post button:active {
+    box-shadow: none;
+    transition: .3s ease all;
+
+}
+
+.edit-post button.delete {
+    background-color: #ff4d4d;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.edit-post button.delete:hover {
+    background-color: #e04040;
+    box-shadow: 0 4px 8px rgba(224, 64, 64, 0.3);
+}
+
+.edit-post button.delete:active {
+    background-color: #b33333;
+    box-shadow: none;
+}
+
+@media (max-width: 768px) {
+    .edit-post {
+        padding: 20px;
+    }
+
+    .edit-post h1 {
+        font-size: 1.8rem;
+    }
+
+    .edit-post label {
+        font-size: 0.95rem;
+    }
+
+    .edit-post input, .edit-post textarea {
+        font-size: 0.95rem;
+    }
+
+    .edit-post button {
+        font-size: 0.95rem;
+    }
+}
