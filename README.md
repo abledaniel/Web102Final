@@ -41,14 +41,15 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 Here is the home page of the website which shows that it searches based on title, sorts based on upvotes and time created, and shows the posts with the title, time created, upvotes count, images, and content:
-<img src="https://github.com/abledaniel/Web102Project7/blob/master/src/assets/home.png" width="500">
-<img src="https://github.com/abledaniel/Web102Final/blob/master/src/assets/home.gif" width="500">
+<img src="https://github.com/abledaniel/Web102Final/blob/master/src/assets/images/home.png" width="500">
+<img src="https://github.com/abledaniel/Web102Final/blob/master/src/assets/images/home.gif" width="700">
 
 This is an example of Creating a Posts:
-<img src="https://github.com/abledaniel/Web102Project7/blob/master/src/assets/create.gif" width="500">
+
+<img src="https://github.com/abledaniel/Web102Final/blob/master/src/assets/images/create.gif" width="700">
 
 This is an example of Showing the Post when clicked, upvoting, commenting and deleting:
-<img src="https://github.com/abledaniel/Web102Project7/blob/master/src/assets/all.gif" width="500">
+<img src="https://github.com/abledaniel/Web102Final/blob/master/src/assets/images/all.gif" width="700">
 
 Lastly, this is an example of its responsiveness: 
 
